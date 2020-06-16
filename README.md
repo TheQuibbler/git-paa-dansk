@@ -13,46 +13,52 @@ Man skal desuden være opmærksom på, at man ved anvendelse af dansk terminolog
 
 ## Oversigt
 
-| Udsagnsord  | Nuværende brug | Forslag       |
-|-------------|----------------|---------------|
-| pull        | pulle          | hale          |
-| push        | pushe          | puffe         |
-| fetch       | fetche         | hente         |
-| branch      | branche        | forgrene      |
-| commit      | committe       | fastlægge     |
-| rebase      | rebase         | genbasere     |
-| merge       | merge          | flette        |
-| squash      | squashe        | kvase         |
-| stash       | stashe         | gemme         |
-| switch      | switche        | skifte        |
-| tag         | tagge          | opmærke       |
-| cherry-pick | cherry-picke   | håndplukke    |
-| amend       | amende         | tilrette      |
-| blame       | blame          | klandre       |
+| Udsagnsord  | Nuværende brug | Forslag         |
+|-------------|----------------|-----------------|
+| pull        | pulle          | trække          |
+| push        | pushe          | skubbe          |
+| fetch       | fetche         | hente           |
+| branch      | branche        | forgrene        |
+| commit      | committe       | fastlægge       |
+| rebase      | rebase         | genbasere       |
+| merge       | merge          | flette          |
+| squash      | squashe        | kvase           |
+| stash       | stashe         | gemme           |
+| switch      | switche        | skifte          |
+| tag         | tagge          | markere         |
+| cherry-pick | cherry-picke   | håndplukke      |
+| amend       | amende         | rette           |
+| blame       | blame          | klandre         |
 
-| Navneord     | Nuværende brug | Forslag      |
-|--------------|----------------|--------------|
-| repository   | repository     | repositorium |
-| branch       | branch         | gren         |
-| commit       | commit         | fastlæggelse |
-| pull request | pull request   | haleanmodning|
-| stash        | stash          | gemme        |
-| tag          | tag            | mærke        |
+| Navneord     | Nuværende brug | Forslag        |
+|--------------|----------------|----------------|
+| repository   | repository     | repositorium   |
+| branch       | branch         | gren           |
+| commit       | commit         | fastlæggelse   |
+| pull request | pull request   | trækkeanmodning|
+| stash        | stash          | gemmested      |
+| tag          | tag            | mærke          |
+| remote       | remote         | kilde          |
 
 ## Eksempler
 
-    - Gider I hale fra den gren, jeg lige har genbaseret og puffet til GitHub?
+    - Gider I trække fra den gren, jeg lige har skubbet til GitHub?
+    
+    - Jeg har lige lavet en ny gren og har fastlagt ændringerne fra mit gemmested der.
 
-    - Jeg har lige skudt en gren og har fastlagt ændringerne fra mit gemme der.
-
-    - Send lige en haleanmodning, når du er færdig med fletningen!
+    - Send lige en trækkeanmodning, når du er færdig med fletningen!
 
     - Det håndplukker vi da bare fra udviklergrenen.
     
-    - Hov, jeg tvangspuffede vistnok til hovedgrenen!
+    - Hov, jeg tvangsskubbede vistnok til hovedgrenen!
 
     - Husk at kvase dine fastlæggelser, inden du fletter.
-
+    
+    - Skal vi markere fastlæggelse 38a7b som version 1.0?
+    
+    - Har du skubbet dine faslæggelser?
+    
+    - Jeg glemte at hente fra kilden inden jeg tog en status.
 
 # Ordliste
 
@@ -77,24 +83,6 @@ Fastlæggelsen refererer til udviklingshistorien i form af tidligere fastlæggel
 `OPRINDELSE`  konstrueret, substantivering af fastlæggelse; i alm. brug betegner fastlæggelse dog »det at fastlægge noget«, altså handlingen i stedet for resultatet. 
 
 > Det sker ofte, at man retter en fastlæggelse til, inden man puffer til en offentlig gren.
-
-## fjern-
-
-I sammensætninger.
-
-`ENGELSK` *remote* adj. 
-
-`SAMMENSÆTNINGER` fjernrepos, fjerngren, fjernsporende gren  
-
-## fjernen
-
-Et fjernrepos.
-
-`ENGELSK` *remote* sb.  
-`OPRINDELSE`  konstrueret   
-`ALTERNATIV`  fjerneren    
-
-> Splitte mine bramsejl! Nu er nettet nede igen og jeg kan ikke komme til fjernen.
 
 ## flette (ind)
 
@@ -144,7 +132,7 @@ skabe en gaffel.
 `ENGELSK` *fork* vb. 
 `OPRINDELSE`  kendt på dansk i betydelsen »dele sig i to« (OdS, gafle I:2), jf. vejgaffel. 
 
-## gemme¹
+## gemme
 
 
 `BØJNING` -r, gemte, gemt  
@@ -152,13 +140,6 @@ skabe en gaffel.
 `ENGELSK` *stash* vb. 
 
 >Hvis man står med en beskidt arbejdsmappe er det hurtigste er ofte bare at gemme sine ændringer som »rodebunke« eller *whatever*.
-
-## gemme²
-
-`BØJNING` -t, -r, -rne   
-`GRAMMATIK` sb.  
-`ENGELSK` *stash* sb.  
-`ALTERNATIV` gemmested  
 
 ## genbasere
 
@@ -190,20 +171,6 @@ gennemføre ændringerne fra en gren påny, men fra en andet udgangspunkt end de
 >Er vi på samme gren?
 
 `SAMMENSÆTNINGER` mestergren, udviklingsgren, grenspidsen, fjernsporende gren, emnegren  
-
-## hale
-
-`BØJNING` -r, -de, -t  
-`UDTALE` [ˈhɑlə]  
-`GRAMMATIK` verbum, *nogen* gafler *noget*  
-`ENGELSK` *pull*  
-`OPRINDELSE`  alm. i betydningen »trække langsomt og jævnt«, fra middelnedertysk *halen*, beslægtet med hole »hente hjem«  
-`ALTERNATIV` trække  
-
-> Novra. Det kunne jeg jo lige så godt have halet
-> fra Simones repos.
-
-`SAMMENSÆTNINGER` haleanmodning  
 
 ## hente
 
@@ -239,15 +206,6 @@ en reference til spidsen af en gren. Sat med versaler, `HOVED`, navnet på en be
 
 `ENGELSK` *index* sb. 
 
-## kilde
-
-`BØJNING` -n, -r, -rne  
-`GRAMMATIK` sb., ofte i 1. person ental, bestemt form »kilden« 
-`ENGELSK` *origin* 
-`ALTERNATIV` udspring, ophav, oprindelse  
-`SAMMENSÆTNINGER` kilderepos  
-
-det forvalgte navn for opstrømsreposet.
 ## klandre
 
 `BØJNING` -r, -de, -t   
@@ -288,48 +246,6 @@ en reference, oftest til en fastlæggelse, som beskriver et bestemt punkt i udvi
 `GRAMMATIK` sb.  
 `ENGELSK` *tag* sb.,  
 `OPRINDELSE`  alm.  
-
-
-## opmærke
-
-= mærke op
-
-forsyne en fastlæggelse med ett mærke.
-
-`BØJNING` -r, -de, -t   
-`GRAMMATIK` verbum, *nogen* opmærker *en fastlæggelse*  
-`ENGELSK` *tag* vb.  
-`OPRINDELSE`  alm. i betydningen »anbringe mærker«  
-
->Vi opmærker med versionsnumre for hver udgave. 
-
-
-## opstrøms
-
-være opstrøms = blive sporet af
-
-`GRAMMATIK` præp., *en gren* er opstrøms *en anden gren* 
-`ANTONYM` nedstrøms  
-
->opstrømsgrenen er den forvalgte gren, som flettes in i den pågældende gren, eller som den pågældende gren genbaseres på. Hvis opstrømsgrenen til `A` er `kilde/B`, siger vi sommetider at »`A` sporer `kilde/B`«.
-
-`SAMMENSÆTNINGER` opstrømsgrenen  
-
-## puffe
-
-Kopiere ændringer til et fjernrepos, typisk ved at udvide en eksisterene gren på fjernreposet med fastlæggelser fra en længere lokal gren og opdatere de nødvendige henvisninger.
-
-`BØJNING` -r, -de, -t   
-`UDTALE` [ˈpɔfə]  
-`GRAMMATIK` verbum, *nogen* puffer *ændringer* til  *et repos*  
-`ENGELSK` *push* vb. 
-`OPRINDELSE`  alm. i betydningen »give et kontrolleret eller let skub«  
-`ALTERNATIV` skubbe  
-`SAMMENSÆTNINGER` tvangspuf  
-
->Hold på hat og briller! Jeg tvangspuffer altså lige til hovedgrenen.
-
->Puffet bliver afvist, hvis den sporede gren på fjernreposet har divergeret.
 
 ## ren
 
