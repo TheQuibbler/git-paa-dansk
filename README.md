@@ -28,11 +28,11 @@ Man skal desuden være opmærksom på, at man ved anvendelse af dansk terminolog
 | tag         | tagge          | markere         |
 | cherry-pick | cherry-picke   | håndplukke      |
 | amend       | amende         | rette           |
-| blame       | blame          | klandre         |
+| blame       | blame          | bebrejde        |
 
 | Navneord     | Nuværende brug | Forslag        |
 |--------------|----------------|----------------|
-| repository   | repository     | repositorium   |
+| repository   | repository     | depot          |
 | branch       | branch         | gren           |
 | commit       | commit         | fastlæggelse   |
 | pull request | pull request   | trækkeanmodning|
@@ -206,10 +206,10 @@ en reference til spidsen af en gren. Sat med versaler, `HOVED`, navnet på en be
 
 `ENGELSK` *index* sb. 
 
-## klandre
+## bebrejde
 
 `BØJNING` -r, -de, -t   
-`GRAMMATIK` verbum, *nogen* klandrer *nogen*   
+`GRAMMATIK` verbum, *nogen* bebrejder *nogen noget *   
 `ENGELSK` *blame* vb.   
 
 ## klone
@@ -253,17 +253,6 @@ en reference, oftest til en fastlæggelse, som beskriver et bestemt punkt i udvi
 
 `GRAMMATIK` adj. 
 `ANTONYM` snavset  
-
-## repos
-
-`BØJNING` -et, -er, -erne  
-`UDTALE` [ʁεˈpo] eller ['ʁεpo]  
-`GRAMMATIK` substantiv  
-`ENGELSK` *repo*, *repository*   
-`OPRINDELSE`  konstrueret; homofon og homonym til det danske substantiv *repos* [ʁεˈpo] »trappeafsats«, der kommer fra fransk *repos* »hvile«.  
-`ALTERNATIVER` repot (jf. *depot*), måske med udtale [ʁεˈpoˀd]; repositorium.  
-
-> Novra. Det kunne jeg jo lige så godt have halet fra Simones repos.
 
 ## revision
 
